@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(92, 95, 97);
+}
+.calculatriche{
+    width: 320px;
+    background-color: rgb(239, 236, 236);
+    padding: 50px 30px 80px 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgb(29, 29, 28), -10px -10px 20px rgb(113, 113, 112) ;
+
+}
+.resultat{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    box-shadow: inset 5px 5px 10px rgb(180, 177, 177), inset -5px -5px 10px rgb(213, 201, 201);
+    font-size: 5vh;
+    padding: 20px;
+    overflow: hidden;
+    text-align: right;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.bouttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.btn{
+    padding: 20px;
+    font-size: 3vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 228, 228);
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    /* box-shadow: inset 5px 5px 10px rgb(169, 169, 169), ; */
+    box-shadow:  5px 5px 10px rgb(125, 124, 124);
+}
+.btnC{
+    padding: 20px;
+    font-size: 3vh;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background-color: rgb(213, 207, 207);
+}
+.btn_operateur{
+    font-size: 3vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.btn_operateur2{
+    font-size: 3vh;
+    border-radius: 10px;
+    background-color: rgb(232, 228, 228);
+    box-shadow:  5px 5px 10px rgb(125, 124, 124);
+    color: black;
+    border: none;
+    font-weight: bolder;
+}
+.btn_operateur2:hover{
+    background-color: rgb(213, 207, 207);
+}
+#operateur_egal{
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+
