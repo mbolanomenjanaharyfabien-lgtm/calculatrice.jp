@@ -1,27 +1,25 @@
-let expression ="";
+
 
 function valeur(value){
-    let resultas = document.getElementById("resultat");
-    expression += value;
-    resultat.textContent = expression;
+   let resultas = document.getElementById("result");
+   resultas.value  += value;
 }
+
 function effacer(){
-    let resultas = document.getElementById("resultat");
-    resultat.textContent = "0";
-    expression = "";
+    let resultas = document.getElementById("result");
+    resultas.value = "";
 }
 
 function supp(){
-    let resultas = document.getElementById("resultat");
-    expression = expression.slice(0, -1) ;
-    resultat.textContent = expression;
+    let resultas = document.getElementById("result");
+    resultas.value = resultas.value.slice(0,-1);
 }
 
-function calculer(){
-    let resultas = document.getElementById("resultat");
-    expression = eval(expression);
-    resultat.textContent = expression;
+function calcul(){
+    let resultas = document.getElementById("result");
+    resultas.value = eval(resultas.value);
 }
+
 
 
 
