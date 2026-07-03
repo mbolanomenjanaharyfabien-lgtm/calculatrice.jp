@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="calculatriche">
-         <input type="text" class="resultat" id="result" placeholder="0">
+         <input type="text" class="resultat" id="result" placeholder="0" disabled>
         <div class="bouttons">
             <button class="btn" onclick="valeur('7')" >7</button>
             <button class="btn" onclick="valeur('8')" >8</button>
@@ -23,11 +23,10 @@
             <button class="btn" onclick="valeur('2')" >2</button>
             <button class="btn" onclick="valeur('3')" >3</button>
             <button class="btn_operateur" onclick="valeur('*')" >X</button>
+            <button class="btn0" onclick="valeur('0')" id="zero">0</button>
             <button class="btn" onclick="valeur('.')">.</button>
-            <button class="btn" onclick="valeur('0')" id="zero">0</button>
-            <button class="btn" onclick="valeur('.')">.</button>
-            <button class="btn_operateur" onclick="valeur('/')" >/</button>
             <button class="btnC" onclick="effacer()">C</button>
+            <button class="btn_operateur" onclick="valeur('/')" >/</button>
             <button class="btn_operateur2" onclick="supp()">AC</button>
             <button class="btn_operateur" onclick="valeur('%')">%</button>
             <button class="btn" onclick="calcul()" id="operateur_egal">=</button>

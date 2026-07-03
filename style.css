@@ -57,6 +57,19 @@ body{
     /* box-shadow: inset 5px 5px 10px rgb(169, 169, 169), ; */
     box-shadow:  5px 5px 10px rgb(125, 124, 124);
 }
+.btn0{
+    padding: 20px;
+    font-size: 3vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 228, 228);
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    grid-row: span 2;
+    /* box-shadow: inset 5px 5px 10px rgb(169, 169, 169), ; */
+    box-shadow:  5px 5px 10px rgb(125, 124, 124);
+}
 .btnC{
     padding: 20px;
     font-size: 3vh;
